@@ -7,5 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "nekoya@voyagegroup.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cpx": "^1.5.0",
+    "del-cli": "^1.1.0"
+  }
 }
