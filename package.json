@@ -1,0 +1,11 @@
+{
+  "name": "techlog_sample",
+  "version": "1.0.0",
+  "description": "VG techlog sample for React and RxJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nekoya@voyagegroup.com",
+  "license": "MIT"
+}
