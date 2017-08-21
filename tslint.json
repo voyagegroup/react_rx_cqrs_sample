@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "./node_modules/tslint-config-fluct/config/basic.json",
+    "./node_modules/tslint-config-fluct/config/typecheck.json"
+  ],
+  "defaultSeverity": "warn",
+  "rules": {
+  }
+}

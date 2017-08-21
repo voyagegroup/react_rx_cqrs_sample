@@ -1,0 +1,45 @@
+{
+    "compilerOptions": {
+        "allowJs": false, // use as a static type checker
+        "allowSyntheticDefaultImports": false,
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "diagnostics": true,
+        "declaration": false, // we don't think to use this project as a lib for other projects.
+        "forceConsistentCasingInFileNames": true,
+        "jsx": "preserve", // Transform jsx syntax in babels phase
+        "lib": [
+            "es2016",
+            "dom"
+        ],
+        "module": "es2015",
+        "moduleResolution": "node",
+        "newLine": "LF",
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitUseStrict": false,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "outDir": "./__obj/",
+        "pretty": true,
+        "preserveConstEnums": true,
+        "removeComments": false,
+        "sourceMap": true,
+        "strictNullChecks": true,
+        "suppressImplicitAnyIndexErrors": false,
+        "target": "es2015"
+    },
+
+    "include": [
+        "src/**/*"
+    ],
+
+    "exclude": [
+        ".git",
+        "__dist",
+        "__obj",
+        "node_modules"
+    ]
+}
