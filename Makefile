@@ -37,7 +37,7 @@ preview: clean_nginx
 	docker run --name $(CONTAINER_NAME) -p $(CONTAINER_PORT):80 -v $(CURDIR)/$(DIST_DIR):/usr/share/nginx/html:ro nginx:alpine
 
 clean_nginx:
-	docker rm $(CONTAINER_NAME)
+	-docker rm $(CONTAINER_NAME)
 
 lint: tslint
 
