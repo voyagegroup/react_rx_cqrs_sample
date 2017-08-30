@@ -5,7 +5,9 @@ DIST_DIR = __dist
 CONTAINER_NAME = techlog_sample
 CONTAINER_PORT = 18888
 
-.PHONY: install clean clean_obj clean_dist build build_html build_js tsc webpack preview clean_nginx lint tslint
+.PHONY: run install clean clean_obj clean_dist build build_html build_js tsc webpack preview clean_nginx lint tslint
+
+run: install build preview
 
 install:
 	yarn install
