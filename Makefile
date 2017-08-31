@@ -10,7 +10,8 @@ CONTAINER_PORT = 18888
 run: install build preview
 
 install:
-	yarn install
+	npm install
+	$(NPM_BIN)/yarn install
 
 clean: clean_obj clean_dist
 
